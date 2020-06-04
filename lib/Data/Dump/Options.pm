@@ -1,3 +1,5 @@
+## no critic: (Modules::ProhibitAutomaticExportation BuiltinFunctions::RequireBlockGrep ValuesAndExpressions::ProhibitCommaSeparatedStatements
+
 package Data::Dump::Options;
 
 # AUTHORITY
