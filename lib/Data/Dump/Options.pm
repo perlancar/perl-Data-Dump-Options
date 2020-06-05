@@ -676,4 +676,9 @@ filtered dumping is slower.
 
 Other C<Data::Dump::*> modules.
 
+L<Data::Bahe> also offers some dumping options. This is a project I've mulled
+over from time to time since about 2015 and is currently in early stage of
+implementation. Data::Dump::Options is written as a stop-gap measure to quickly
+give the kind of dumps I want.
+
 =cut
