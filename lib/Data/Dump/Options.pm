@@ -666,6 +666,12 @@ The default value is "dump".
 
 =head1 SEE ALSO
 
-L<Data::Dump> and other C<Data::Dump::*> modules.
+L<Data::Dump> actually has a "filtering" mechanism to customize dumping. It lets
+you specify a callback function that gets called for every item during dumping
+process and has a chance to produce a custom dump for that item.
+C<Data::Dump::Options> could be implemented using this filtering instead, but
+filtered dumping is slower.
+
+Other C<Data::Dump::*> modules.
 
 =cut
