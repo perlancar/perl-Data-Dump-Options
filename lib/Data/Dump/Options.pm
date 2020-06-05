@@ -628,7 +628,7 @@ Use like you would use L<Data::Dump>:
 
 =head1 DESCRIPTION
 
-A fork of L<Data::Dump> 1.23 to give some dumping options.>
+A fork of L<Data::Dump> 1.23 to give some more dumping options.
 
 
 =head1 CONFIGURATION
