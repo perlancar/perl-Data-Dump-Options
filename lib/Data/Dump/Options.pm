@@ -1,4 +1,4 @@
-## no critic: (Modules::ProhibitAutomaticExportation BuiltinFunctions::RequireBlockGrep ValuesAndExpressions::ProhibitCommaSeparatedStatements
+## no critic: (Modules::ProhibitAutomaticExportation BuiltinFunctions::RequireBlockGrep ValuesAndExpressions::ProhibitCommaSeparatedStatements)
 
 package Data::Dump::Options;
 
