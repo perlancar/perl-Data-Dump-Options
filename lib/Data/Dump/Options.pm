@@ -655,9 +655,11 @@ If set to "default_string", then object will be dumped as the standard:
 
  Foo::Bar=ARRAY(0x5653ec564740)
 
-format even, disregarding object's overloading of stringification.
+disregarding object's overloading of stringification.
 
-Useful if you don't care about objects.
+Useful if you don't want to see the innards of objects (e.g. during debugging),
+or, as L<TOBYINK|https://metacpan.org/author/TOBYINK> suggested, "Useful if you
+are passionate about objects being opaque."
 
 The default value is "dump".
 
